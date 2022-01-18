@@ -52,7 +52,7 @@ bg.scale = 1.1
    player = createSprite(displayWidth-1150, displayHeight-300, 50, 50);
    player.addImage(shooterImg)
    player.scale = 0.3
-   player.debug = true
+   //player.debug = true
    player.setCollider("rectangle",0,0,300,300)
 
    //creating sprites to depict lives remaining
@@ -238,7 +238,7 @@ function enemy(){
     zombie.addImage(zombieImg)
     zombie.scale = 0.15
     zombie.velocityX = -3
-    zombie.debug= true
+   // zombie.debug= true
     zombie.setCollider("rectangle",0,0,400,400)
    
     zombie.lifetime = 400
